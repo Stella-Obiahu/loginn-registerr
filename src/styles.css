@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Poppins:wght@300;400;500;600;700&family=Raleway&display=swap');
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root{
+    --Lime-Green: rgb(190, 226, 216);
+    --Instagram:hsla(36, 87%, 91%, 0.952);
+}
+
+body{
+    background: linear-gradient(to right,var(--Lime-Green),var(--Instagram));
+    font-family: "Poppins" sans-serif;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    display: flex;
+}
+.container{
+    position: relative;
+    max-width: 430px;
+    width: 100%;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+.container .form{
+    padding: 50px;
+}
+.container .form .title{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 700;
+}
+.container .form .titlee{
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 40px;
+    margin-left: 20px;
+}
+.form .input-field{
+    
+    width: 100%;
+    margin-top: 5px;
+    position: relative;
+    display: flex;
+    align-items: baseline;
+    border-bottom: 1px solid #ccc;
+    margin-bottom: 20px;
+}
+.input-field input{
+    width: 100%;
+    padding: 2px;
+    border: none;
+    outline: none;
+    border-top: 2px solid transparent;
+    transition: all 0.2s ease;
+}
+
+.input-field .thing{
+    position: absolute;
+    bottom: 70%;
+    transform: translateY(-50%);
+}
+.btn{
+    background-color: #74BD44 !important;
+}
+.forget{
+    color: #74BD44 !important;
+}
+.foot{
+    text-align: center;
+    font-size: 10px;
+    margin-top: 30px;
+}
